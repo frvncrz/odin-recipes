@@ -1,0 +1,16 @@
+body {
+  background-color: #b9bfd3;
+}
+
+
+a {
+    text-decoration: none;
+    color: #3C404B;
+}
+
+a:hover {
+    color: #873648;
+}
+.recipe-links {
+    list-style-type: none;
+}
