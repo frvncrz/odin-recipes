@@ -1,0 +1,37 @@
+/* font for h1 elements and so on */
+@font-face {
+  font-family: "Tech";
+  src: url("/fonts/Anta-Regular.ttf") format("truetype");
+}
+
+/* font for all */
+@font-face {
+  font-family: "Sandy";
+  src: url("/fonts/Quicksand-Light.ttf") format("truetype");
+}
+
+body {
+    background-color: #b9bfd3;
+}
+
+.lasagna-img {
+    border-radius: 50px;
+    box-shadow: 8px  8px 8px rgba(67, 73, 77, 50%);
+}
+
+.lasagna-logo, .link {
+    text-decoration: none;
+    color: #3c404b;
+}
+
+.nav-link {
+    color: #3c404b;
+    text-decoration: none;
+}
+
+.nav-bar a {
+    display: inline-flex;
+    float: right;
+    text-align: center;
+    padding: 14px 18px;
+}
