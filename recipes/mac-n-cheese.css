@@ -1,0 +1,17 @@
+/* font for h1 elements and so on */
+@font-face {
+  font-family: "Tech";
+  src: url("/fonts/Anta-Regular.ttf") format("truetype");
+}
+
+/* font for buttons */
+@font-face {
+  font-family: "Sandy";
+  src: url("/fonts/Quicksand-Light.ttf") format("truetype");
+}
+
+/* better font for p and nav bar possibly? */
+@font-face {
+  font-family: "Professional";
+  src: url("/fonts/Abel-Regular.ttf") format("truetype");
+}
