@@ -4,14 +4,32 @@
   src: url("/fonts/Anta-Regular.ttf") format("truetype");
 }
 
-/* font for all */
+/* font for buttons */
 @font-face {
   font-family: "Sandy";
   src: url("/fonts/Quicksand-Light.ttf") format("truetype");
 }
 
+/* better font for p and nav bar possibly? */
+@font-face {
+    font-family: "Professional";
+    src: url("/fonts/Abel-Regular.ttf") format("truetype");
+}
+
 body {
     background-color: #b9bfd3;
+}
+
+h1, h2, h3 {
+    font-family: "Tech", sans-serif;
+}
+
+p, li {
+    font-family: "Professional", sans-serif;
+}
+
+li {
+    font-weight: 600;
 }
 
 .lasagna-img {
@@ -34,4 +52,5 @@ body {
     float: right;
     text-align: center;
     padding: 14px 18px;
+    font-family: "Professional", sans-serif;
 }
