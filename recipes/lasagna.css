@@ -54,3 +54,12 @@ li {
     padding: 14px 18px;
     font-family: "Professional", sans-serif;
 }
+
+.bonus-step {
+    display: inline-block;
+    width: 1200px;
+    margin-left: 18%;
+    background-color: #3B434B;
+    color: #FAFAFA;
+    font-size: 1.5rem;
+}
