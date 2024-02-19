@@ -15,3 +15,71 @@
   font-family: "Professional";
   src: url("/fonts/Abel-Regular.ttf") format("truetype");
 }
+
+body {
+  background-color: #b9bfd3;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Tech", sans-serif;
+}
+
+p,
+li {
+  font-family: "Professional", sans-serif;
+}
+
+li {
+  font-weight: 600;
+}
+
+.caption {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+img {
+  width: 30%;
+  height: auto;
+}
+
+.mac-n-cheese-img {
+  border-radius: 50px;
+  box-shadow: 8px 8px 8px rgba(67, 73, 77, 50%);
+}
+
+.nav-link {
+  color: #3c404b;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #752d43;
+}
+
+.nav-bar a {
+  display: inline-flex;
+  float: right;
+  text-align: center;
+  padding: 14px 18px;
+  font-family: "Professional", sans-serif;
+}
+
+.ingredients-title {
+  letter-spacing: 1.5px;
+}
+
+.steps-title {
+  letter-spacing: 1.5px;
+}
+
+.bonus-step {
+  display: inline-block;
+  width: 1060px;
+  margin-left: 18%;
+  background-color: #3b434b;
+  color: #fafafa;
+  font-size: 1.5rem;
+}
