@@ -40,13 +40,8 @@ li {
   font-weight: 600;
 }
 
-img {
-  width: 30%;
-  height: auto;
-}
-
-.mac-n-cheese-img {
-  border-radius: 50px;
+.salmon-img {
+  border-radius: 20px;
   box-shadow: 8px 8px 8px rgba(67, 73, 77, 50%);
 }
 
@@ -77,7 +72,7 @@ img {
 
 .bonus-step {
   display: inline-block;
-  width: 1060px;
+  width: 990px;
   margin-left: 18%;
   background-color: #3b434b;
   color: #fafafa;
